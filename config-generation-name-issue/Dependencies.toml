@@ -64,14 +64,14 @@ modules = [
 ]
 
 [[package]]
-org = "binoyperies"
-name = "bal_task_with_config"
+org = "chalindu"
+name = "bal_hello_world"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "log"},
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
-	{org = "binoyperies", packageName = "bal_task_with_config", moduleName = "bal_task_with_config"}
+	{org = "chalindu", packageName = "bal_hello_world", moduleName = "bal_hello_world"}
 ]
 

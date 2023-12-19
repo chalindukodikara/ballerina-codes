@@ -2,10 +2,10 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "binoyperies": {
+    "chalindu": {
       "type": "object",
       "properties": {
-        "bal_task_with_config": {
+        "bal_hello_world": {
           "type": "object",
           "properties": {
             "record1": {
@@ -32,7 +32,7 @@
               "required": [
                 "normalValue"
               ],
-              "name": "binoyperies/bal_task_with_config:0.1.0:NormalRecord",
+              "name": "chalindu/bal_hello_world:0.1.0:NormalRecord",
               "description": ""
             }
           },
