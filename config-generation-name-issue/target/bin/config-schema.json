@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "binoyperies": {
+      "type": "object",
+      "properties": {
+        "bal_task_with_config": {
+          "type": "object",
+          "properties": {
+            "record1": {
+              "type": "object",
+              "properties": {
+                "readOnlyValue": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "readOnlyValue"
+              ],
+              "description": ""
+            },
+            "record2": {
+              "type": "object",
+              "properties": {
+                "normalValue": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "normalValue"
+              ],
+              "name": "binoyperies/bal_task_with_config:0.1.0:NormalRecord",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "record1",
+            "record2"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
